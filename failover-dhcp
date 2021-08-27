@@ -26,7 +26,7 @@
   # - configurable "ping success rate expected"
   # - stop pinging testHosts as soon as the expected rate is reached to avoid unnecessary traffic
   # - release DHCP lease in mainInterface on link failure to trigger a renew.
-  #   (This is usefull if the provider change the subnet on its side but or DHCP lease is not expired yet)
+  #   (This is usefull if the provider change the subnet on its side but our DHCP lease is not expired yet)
   # - doesn't need :global variable
   # - doesn't need specific configuration other than using dhcp-client on both main/backup interfaces
   
